@@ -1,8 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="DemoTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2024-09-09T16:56:21" hostname="ip-172-31-54-70.ec2.internal" time="0.023">
+<testsuite name="DemoTest" tests="21" skipped="0" failures="0" errors="0" timestamp="2024-09-09T17:41:12" hostname="ip-172-31-54-70.ec2.internal" time="0.037">
   <properties/>
-  <testcase name="testmain_1" classname="DemoTest" time="0.02"/>
-  <testcase name="testisTriangle_1" classname="DemoTest" time="0.001"/>
+  <testcase name="testmain_1" classname="DemoTest" time="0.01"/>
+  <testcase name="testIsNotTriangle_10" classname="DemoTest" time="0.0"/>
+  <testcase name="testIsNotTriangle_11" classname="DemoTest" time="0.0"/>
+  <testcase name="testIsError_1" classname="DemoTest" time="0.001"/>
+  <testcase name="testIsError_2" classname="DemoTest" time="0.001"/>
+  <testcase name="testIsError_3" classname="DemoTest" time="0.0"/>
+  <testcase name="testIsTriangle_1" classname="DemoTest" time="0.0"/>
+  <testcase name="testIsTriangle_2" classname="DemoTest" time="0.0"/>
+  <testcase name="testIsTriangle_3" classname="DemoTest" time="0.0"/>
+  <testcase name="testIsTriangle_4" classname="DemoTest" time="0.0"/>
+  <testcase name="testIsTriangle_5" classname="DemoTest" time="0.001"/>
+  <testcase name="testIsTriangle_6" classname="DemoTest" time="0.001"/>
+  <testcase name="testIsNotTriangle_1" classname="DemoTest" time="0.001"/>
+  <testcase name="testIsNotTriangle_2" classname="DemoTest" time="0.001"/>
+  <testcase name="testIsNotTriangle_3" classname="DemoTest" time="0.0"/>
+  <testcase name="testIsNotTriangle_4" classname="DemoTest" time="0.001"/>
+  <testcase name="testIsNotTriangle_5" classname="DemoTest" time="0.0"/>
+  <testcase name="testIsNotTriangle_6" classname="DemoTest" time="0.004"/>
+  <testcase name="testIsNotTriangle_7" classname="DemoTest" time="0.001"/>
+  <testcase name="testIsNotTriangle_8" classname="DemoTest" time="0.0"/>
+  <testcase name="testIsNotTriangle_9" classname="DemoTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
