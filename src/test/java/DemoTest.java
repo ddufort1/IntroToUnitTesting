@@ -89,7 +89,7 @@ public class DemoTest {
   public void testIsTriangle_5() {
       assertEquals(true, Demo.isTriangle(5, 5, 5));
     }  
-    
+  
     
   @Test
   public void testIsTriangle_6() {
@@ -162,6 +162,10 @@ public class DemoTest {
       assertEquals(false, Demo.isTriangle(5, 10, 5));
     }
 
+  @Test
+  public void testIsNotTriangle_12() {
+      assertEquals(false, Demo.isTriangle(0.5, 1, 0.5));
+    }  
 
 
   // Error condition tests  
