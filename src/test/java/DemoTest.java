@@ -4,10 +4,7 @@
  * {@link Demo#main(String[])} and 
  * {@link Demo#isTriangle(double, double, double)}).
  */
-<<<<<<< HEAD
-public class DemoTest {
 
-=======
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
 import java.io.PrintStream;
@@ -43,14 +40,12 @@ public class DemoTest {
     // Invoke main
     String[] args = {};
     Demo.main(args);
-
     
     // Expected results
     String consoleOutput = "Enter side 1: \n";
     consoleOutput += "Enter side 2: \n";
     consoleOutput += "Enter side 3: \n";
     consoleOutput += "This is a triangle.\n";
-
     
     // Validation
     assertEquals(consoleOutput, out.toString());
@@ -63,23 +58,17 @@ public class DemoTest {
   public void testIsTriangle_1() {
       assertEquals(true, Demo.isTriangle(2, 3, 4));
     }
-    
-<<<<<<< HEAD
->>>>>>> 07e842a (initial commit)
-=======
-    
-      @Test
+        
+  @Test
   public void testIsTriangle_2() {
       assertEquals(true, Demo.isTriangle(5, 12, 13));
     }
-    
     
   @Test
   public void testIsTriangle_3() {
       assertEquals(true, Demo.isTriangle(5, 13, 12));
     }
-    
-    
+        
   @Test
   public void testIsTriangle_4() {
       assertEquals(true, Demo.isTriangle(12, 5, 13));
@@ -90,14 +79,12 @@ public class DemoTest {
       assertEquals(true, Demo.isTriangle(5, 5, 5));
     }  
   
-    
   @Test
   public void testIsTriangle_6() {
       assertEquals(true, Demo.isTriangle(2147483647, 2147483647, 2147483647));
     }  
     
-    
-    
+      
   // Not a Triangle tests
   @Test
   public void testIsNotTriangle_1() {
@@ -109,7 +96,6 @@ public class DemoTest {
       assertEquals(false, Demo.isTriangle(1, 2, 4));
     }
     
-
   @Test
   public void testIsNotTriangle_3() {
       assertEquals(false, Demo.isTriangle(5, 7, 13));
@@ -120,42 +106,35 @@ public class DemoTest {
       assertEquals(false, Demo.isTriangle(5, 13, 7));
     }
 
-
   @Test
   public void testIsNotTriangle_5() {
       assertEquals(false, Demo.isTriangle(13, 5, 7));
     }
-
 
   @Test
   public void testIsNotTriangle_6() {
       assertEquals(false, Demo.isTriangle(13, 7, 5));
     }
 
-
   @Test
   public void testIsNotTriangle_7() {
       assertEquals(false, Demo.isTriangle(13, 7, 5));
     }
-
 
   @Test
   public void testIsNotTriangle_8() {
       assertEquals(false, Demo.isTriangle(5, 9, 3));
     }
     
-
   @Test
   public void testIsNotTriangle_9() {
       assertEquals(false, Demo.isTriangle(5, 5, 10));
     }
 
-
   @Test
   public void testIsNotTriangle_10() {
       assertEquals(false, Demo.isTriangle(10, 5, 5));
     }
-
 
   @Test
   public void testIsNotTriangle_11() {
@@ -174,19 +153,14 @@ public class DemoTest {
       assertEquals(false, Demo.isTriangle(0, 0, 0));
     }
     
-  
   @Test
   public void testIsError_2() {
     assertEquals(false, Demo.isTriangle(-1,-1,-1));
     }
     
-  
   @Test
   public void testIsError_3() {
       assertEquals(false, Demo.isTriangle(5, 9, -3));
     }
-
     
-    
->>>>>>> a91c5d1 (completed tests)
 }
