@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="DemoTest" tests="22" skipped="0" failures="0" errors="0" timestamp="2024-09-09T20:32:17" hostname="ip-172-31-54-70.ec2.internal" time="0.065">
+<testsuite name="DemoTest" tests="22" skipped="0" failures="0" errors="0" timestamp="2024-09-22T19:50:11" hostname="ip-172-31-54-70.ec2.internal" time="0.066">
   <properties/>
-  <testcase name="testmain_1" classname="DemoTest" time="0.018"/>
-  <testcase name="testIsNotTriangle_10" classname="DemoTest" time="0.001"/>
-  <testcase name="testIsNotTriangle_11" classname="DemoTest" time="0.001"/>
+  <testcase name="testmain_1" classname="DemoTest" time="0.015"/>
+  <testcase name="testIsNotTriangle_10" classname="DemoTest" time="0.0"/>
+  <testcase name="testIsNotTriangle_11" classname="DemoTest" time="0.003"/>
   <testcase name="testIsNotTriangle_12" classname="DemoTest" time="0.0"/>
-  <testcase name="testIsError_1" classname="DemoTest" time="0.001"/>
+  <testcase name="testIsError_1" classname="DemoTest" time="0.0"/>
   <testcase name="testIsError_2" classname="DemoTest" time="0.001"/>
-  <testcase name="testIsError_3" classname="DemoTest" time="0.0"/>
-  <testcase name="testIsTriangle_1" classname="DemoTest" time="0.0"/>
-  <testcase name="testIsTriangle_2" classname="DemoTest" time="0.0"/>
-  <testcase name="testIsTriangle_3" classname="DemoTest" time="0.0"/>
+  <testcase name="testIsError_3" classname="DemoTest" time="0.001"/>
+  <testcase name="testIsTriangle_1" classname="DemoTest" time="0.001"/>
+  <testcase name="testIsTriangle_2" classname="DemoTest" time="0.001"/>
+  <testcase name="testIsTriangle_3" classname="DemoTest" time="0.002"/>
   <testcase name="testIsTriangle_4" classname="DemoTest" time="0.001"/>
-  <testcase name="testIsTriangle_5" classname="DemoTest" time="0.002"/>
-  <testcase name="testIsTriangle_6" classname="DemoTest" time="0.001"/>
+  <testcase name="testIsTriangle_5" classname="DemoTest" time="0.0"/>
+  <testcase name="testIsTriangle_6" classname="DemoTest" time="0.006"/>
   <testcase name="testIsNotTriangle_1" classname="DemoTest" time="0.0"/>
   <testcase name="testIsNotTriangle_2" classname="DemoTest" time="0.0"/>
-  <testcase name="testIsNotTriangle_3" classname="DemoTest" time="0.002"/>
-  <testcase name="testIsNotTriangle_4" classname="DemoTest" time="0.001"/>
-  <testcase name="testIsNotTriangle_5" classname="DemoTest" time="0.0"/>
-  <testcase name="testIsNotTriangle_6" classname="DemoTest" time="0.0"/>
+  <testcase name="testIsNotTriangle_3" classname="DemoTest" time="0.001"/>
+  <testcase name="testIsNotTriangle_4" classname="DemoTest" time="0.005"/>
+  <testcase name="testIsNotTriangle_5" classname="DemoTest" time="0.001"/>
+  <testcase name="testIsNotTriangle_6" classname="DemoTest" time="0.001"/>
   <testcase name="testIsNotTriangle_7" classname="DemoTest" time="0.001"/>
   <testcase name="testIsNotTriangle_8" classname="DemoTest" time="0.001"/>
-  <testcase name="testIsNotTriangle_9" classname="DemoTest" time="0.002"/>
+  <testcase name="testIsNotTriangle_9" classname="DemoTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
